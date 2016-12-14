@@ -1,4 +1,4 @@
-HexCode: Unicode representation - description; Type
+HexCode: Unicode representation - description; Type // Notes
 00: 0 - Push 0 to the stack; Niladic
 01: 1 - Push 1 to the stack; Niladic
 02: 2 - Push 2 to the stack; Niladic
@@ -15,3 +15,27 @@ HexCode: Unicode representation - description; Type
 0D: Ḋ - Push 13 to the stack; Niladic
 0E: Ė - Push 14 to the stack; Niladic
 0F: Ḟ - Push 15 to the stack; Niladic
+10: ⁰ - Push the 0th argument to the stack; Niladic //Arguments start at 0
+11: ¹ - Push the 1st argument to the stack; Niladic
+12: ² - Push the 2nd argument to the stack; Niladic
+13: ³ - Push the 3rd argument to the stack; Niladic
+14: ⁴ - Push the 4th argument to the stack; Niladic
+15: ⁵ - Push the 5th argument to the stack; Niladic
+16: ⁶ - Push the 6th argument to the stack; Niladic
+17: ⁷ - Push the 7th argument to the stack; Niladic
+18: ⁸ - Push the 8th argument to the stack; Niladic
+19: ⁹ - Push the 9th argument to the stack; Niladic
+1A: ȧ - Push the 10th argument to the stack; Niladic 
+1B: ḃ - Push the 11th argument to the stack; Niladic
+1C: ċ - Push the 12th argument to the stack; Niladic
+1D: ḋ - Push the 13th argument to the stack; Niladic
+1E: ė - Push the 14th argument to the stack; Niladic
+1F: ḟ - Push the 15th argument to the stack; Niladic
+20: Ɠ - Push an evaluated line read from STDIN to the stack; Niladic //Evaluated as a Michael Object
+21: ƈ - Push a character read from STDIN to the stack; Niladic //Will attempt to get a character without having the user press ENTER
+22: ɠ - Push a line read from STDIN to thes stack; Niladic //Does not keep a new line
+23: Я - Push the string 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' to the stack; Niladic //Uppercase alphabet
+24: Б - Push the string '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz' to the stack; Niladic //Base digits
+25: Ц - Push the string 'BCDFGHJKLMNPQRSTVWXYZbcdfghjklmnpqrstvwxyz' to the stack; Niladic //Consonants
+26: Д - Push the string '0123456789' to the stack; Niladic //Digits
+27: χ - Push the string '0123456789ABCDEF' to the stack; Niladic //Hexadecimal digits
