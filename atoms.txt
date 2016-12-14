@@ -1,0 +1,17 @@
+HexCode: Unicode representation - description; Type
+00: 0 - Push 0 to the stack; Niladic
+01: 1 - Push 1 to the stack; Niladic
+02: 2 - Push 2 to the stack; Niladic
+03: 3 - Push 3 to the stack; Niladic
+04: 4 - Push 4 to the stack; Niladic
+05: 5 - Push 5 to the stack; Niladic
+06: 6 - Push 6 to the stack; Niladic
+07: 7 - Push 7 to the stack; Niladic
+08: 8 - Push 8 to the stack; Niladic
+09: 9 - Push 9 to the stack; Niladic
+0A: Ȧ - Push 10 to the stack; Niladic
+0B: Ḃ - Push 11 to the stack; Niladic
+0C: Ċ - Push 12 to the stack; Niladic
+0D: Ḋ - Push 13 to the stack; Niladic
+0E: Ė - Push 14 to the stack; Niladic
+0F: Ḟ - Push 15 to the stack; Niladic
